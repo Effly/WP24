@@ -907,3 +907,27 @@ main{
         top: -22%;
     }
 }
+@media(max-width: 321px){
+    .main__text{
+        grid-template-rows: 0.1fr 1fr;
+        width: 320px;
+    }
+    .main__title{
+        grid-template-rows: 0.5fr 0.1fr;
+        width: 320px;
+    }
+    .main__pics{
+        width: 320px;
+    }
+    .mainPic{
+        width:228px;
+    }
+    .mainBtn{
+        width: 270px;
+    }
+    .mainBtn:after{
+       
+        left: 91%;
+        
+    }
+}
